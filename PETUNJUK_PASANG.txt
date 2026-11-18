@@ -1,0 +1,26 @@
+PANDUAN PASANG ZAMOPI PRIVACY DI GITHUB PAGES
+=============================================
+1. Pastikan repository GitHub publik zamopi-privacy tersedia di akun ilzamulhaqqi.
+2. BUKA terlebih dahulu file hello-banyuwangi/index.html dan hello-banyuwangi/en.html.
+   Cari [GANTI_DENGAN_EMAIL_RESMI_ZAMOPI] dan ganti dengan email kontak Anda.
+   Jangan lanjut publikasi jika placeholder belum diganti.
+3. Upload SEMUA isi folder zamopi-privacy (bukan folder luarnya) ke root repository.
+   Struktur root yang benar: index.html, assets/, hello-banyuwangi/, README.md, .nojekyll.
+4. Buka repository -> Settings -> Pages.
+   Source: Deploy from a branch; Branch: main; Folder: /(root); klik Save.
+5. Setelah deployment berhasil, buka:
+   https://ilzamulhaqqi.github.io/zamopi-privacy/hello-banyuwangi/
+   Periksa halaman di browser biasa dan mode Incognito, tanpa login GitHub.
+6. Masukkan URL tersebut ke Play Console -> App content -> Privacy policy.
+7. Tambahkan akses Kebijakan Privasi di halaman About Flutter sebelum build AAB berikutnya.
+
+DATA SAFETY
+-----------
+Berdasarkan berkas manifest/pubspec dan informasi fitur yang dibagikan, belum terlihat SDK
+iklan/analitik atau izin internet. Namun Data safety harus didasarkan pada perilaku seluruh
+kode, SDK, kebijakan backup, dan AAB FINAL. Jangan langsung menjawab form tanpa audit final.
+
+CATATAN
+-------
+Aplikasi ini berjenis offline, bookmark tersimpan lokal, tidak ada akun/login.
+Penamaan hak materi dan izin publikasi tetap perlu disepakati dengan tim dosen.
